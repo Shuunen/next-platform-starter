@@ -1,4 +1,4 @@
-import { messages } from 'app/messages'
+import { messages } from 'app/[lang]/messages'
 import { $t } from 'utils/translate'
 
 export default function LangPage ({ params: { lang } }) {
