@@ -1,15 +1,15 @@
-import '../styles/globals.css';
-import { Footer } from '../components/footer';
-import { Header } from '../components/header';
+import { Footer } from '../../components/footer'
+import { Header } from '../../components/header'
+import '../../styles/globals.css'
 
 export const metadata = {
     title: {
         template: '%s | Netlify',
         default: 'Netlify Starter'
     }
-};
+}
 
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
     return (
         <html lang="en" data-theme="lofi">
             <head>
@@ -25,5 +25,5 @@ export default function RootLayout({ children }) {
                 </div>
             </body>
         </html>
-    );
+    )
 }
